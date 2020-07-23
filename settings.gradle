@@ -7,4 +7,5 @@ pluginManagement {
 
 rootProject.name = 'polaris-boot'
 include 'polaris-boot-dependencies'
+include 'polaris-boot-core'
 

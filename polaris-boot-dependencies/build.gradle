@@ -9,6 +9,8 @@ dependencies {
     api platform("org.springframework.boot:spring-boot-dependencies:${spring_boot_version}")
     api platform("org.springframework.cloud:spring-cloud-dependencies:${spring_cloud_version}")
     constraints {
+        api project(':polaris-boot-core')
+
         api 'com.google.code.gson:gson:2.8.6'
         api 'org.slf4j:slf4j-api:1.7.30'
         api 'org.apache.commons:commons-lang3:3.10'
